@@ -83,3 +83,30 @@ nav{
     border: 1px solid #FD6E0A;
     background-color: #FFF8F3;
 }
+
+/* about me section style */
+.about-me{
+    max-width: 900px;
+    margin: 130px auto;
+    text-align: center;
+    background: #FFF8F3;
+    padding: 130px 156px;
+    border-radius: 10px;
+}
+
+.section-descritption{
+    margin: 30px 0px;
+}
+
+.about-me-information-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info > h4{
+    font-size: 20px;
+    color: #757575;
+}
+.info > p{
+    font-size: 20px;
+    font-weight: 600;
+}
