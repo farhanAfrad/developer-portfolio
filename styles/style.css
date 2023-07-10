@@ -58,9 +58,6 @@ nav{
     margin-left: 230px;
     gap: 90PX;
 }
-.myImage{
-    
-}
 .banner-title-one{
     color: #474747;
     font-size: 45px;
@@ -90,7 +87,6 @@ main{
     margin: 130px auto;
     text-align: center;
 }
-
 
 /* about me section style */
 .about-me-section-container{
@@ -166,4 +162,40 @@ main{
 }
 .summary p{
     padding-right: 50px;
+}
+
+/* footer style */
+footer{
+    background-color: #FFF8F3;
+    
+}
+.footer{
+    max-width: 1140px;
+    margin: 130px auto 0 auto;
+    padding: 130px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer h3{
+    margin-bottom: 28px;
+}
+.connect p{
+    margin-bottom: 15px;
+}
+.connect{
+    width: 50%;
+}
+.footer-icon img{
+    margin-right: 20px;
+}
+.message{
+    width: 38%;
+}
+.message input[type="text"],textarea{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 0 18px 12px;
+    margin-bottom: 15px;
 }
