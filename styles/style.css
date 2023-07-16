@@ -199,3 +199,71 @@ footer{
     padding: 18px 0 18px 12px;
     margin-bottom: 15px;
 }
+
+.hide{
+    display: none;
+}
+
+/* responsive */
+@media screen and (max-width:576px){
+    body{
+       padding: 0 20px;
+    }
+    
+    .footer,.banner,nav,.about-me-information-container,.myskill-container,.summary-container{
+        flex-direction: column;
+    }
+    .header{
+        background-image: none;
+        margin: 0;
+        width: 100%;
+        padding-bottom: 20px;
+
+    }
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    nav > ul li{
+        margin: 0;
+    }
+    .primary-button{
+        font-size: 16px;
+        padding: 13px 18px;
+    }
+    .banner,nav{
+        margin: 0;
+    }
+    .banner{
+        text-align: center;
+        gap: 40px;
+    }
+    .header,footer,.banner{
+        width: 100%;
+    }
+    .myImage,.section-titile{
+        width: 100%;
+    }
+    .myImage img{
+        width: 90%;
+    }
+    main{
+        width: auto;
+    }
+    .about-me-section-container{
+        padding: 40px 0;
+        
+    }
+    footer{
+        text-align: center;
+    }
+    .connect,.message{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
